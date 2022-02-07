@@ -1,7 +1,7 @@
 function tinhToan(coSo,soMu){
     var tong = 0;
     var a = 0;
-    for(var j=0;j<=soMu;j++){
+    for(var j=1;j<=soMu;j++){
         a = Math.pow(coSo,j);
         tong = tong + a;
         console.log(tong);
